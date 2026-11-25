@@ -1,0 +1,9 @@
+[project]
+name = "smb-m365-security-baseline"
+version = "0.1.0"
+description = "Automated SMB M365 MFA, email DMARC, backup DR, dark-web rotation, and VoIP posture auditor"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
